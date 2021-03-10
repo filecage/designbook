@@ -15,8 +15,8 @@ start the server
 node app.js
 ```
 
-It will compile all markdown files inside [/app](/app) to HTML and sub-compile the markdown code blocks using the
+It will compile all markdown files inside [/app](/example-app) to HTML and sub-compile the markdown code blocks using the
 predefined [compilers](src/server/Compiler). Each code block will be isolated and have its own javascript bundle.
 
-The default example of the [Button.md](app/Components/Button.md) can be checke at
-http://localhost:3000/app/Components/Button/ after the startup has finished.
+The default example of the [Button.md](example-app/Components/Button.md) can be checke at
+http://localhost:3000/docs/example-app/Components/Button/ after the startup has finished.

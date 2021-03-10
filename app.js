@@ -1,4 +1,4 @@
-import webpackConfig from './app/webpack-local.js';
+import webpackConfig from './example-app/webpack-local.js';
 import {createFsFromVolume, Volume} from 'memfs';
 import {collectComponentDocs} from './src/server/Helper/collector.js';
 import {parse} from './src/server/Helper/parser.js';
@@ -9,7 +9,7 @@ import assemble from './src/server/Helper/assemble.js';
 import Doc from './src/server/Doc.js';
 import DocContainer from './src/server/DocContainer.js';
 
-const files = await collectComponentDocs('./app');
+const files = await collectComponentDocs('./example-app');
 const docs = [];
 for (const file of files) {
     const fs = createFsFromVolume(new Volume());
