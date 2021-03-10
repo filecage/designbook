@@ -3,7 +3,6 @@
   "description": "A lightweight Design Component documentation framework",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --entry ./app/index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Beuchert <david.beuchert@thomann.de>",
